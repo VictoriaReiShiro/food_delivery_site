@@ -1,0 +1,77 @@
+body {
+    font: 0.9em/1.2 Arial, Helvetica, sans-serif; /* Размер шрифта/интерлиньяж, набор шрифтов*/
+   }
+
+header {
+    background-color: #f1f1f1; /* Цвет фона */
+    padding: 20px; /* Внутренние отступы */
+   
+} 
+
+nav {
+   /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;*/
+
+
+}
+
+nav img {
+    display: flex;
+    width: 111.94px;
+    height: 42.31px;
+    padding-top: 9px;
+    border: 0px;
+    
+}
+
+nav ul {
+    width: 374.46px;
+    height: 27px;
+    padding-top: 17px;
+    padding-left: 215px;
+    padding-right: 53.49px;
+    list-style-type: none; /* Убираем маркеры списка */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+nav ul li {
+    display: inline; /* Отображаем элементы списка в строчку */
+    margin-right: 30px; /* Добавляем отступ между элементами */
+}
+
+nav ul li a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #000; /* Цвет текста ссылок */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+footer {
+    background-color: #f1f1f1; /* Цвет фона футера */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+footer ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+footer ul li {
+    display: inline; /* Отображаем элементы списка в строчку */
+    margin-right: 10px; /* Добавляем отступ между элементами */
+}
+
+footer ul li a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #000; /* Цвет текста ссылок */
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
